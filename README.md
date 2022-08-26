@@ -8,3 +8,5 @@ sudo yum install -y ruby
 sudo yum install -y wget
 cd /home/ec2-user/
 wget https://bucket-name.s3.region-identifier.amazonaws.com/latest/install
+chmod +x ./install
+sudo ./install auto
