@@ -4,11 +4,11 @@ const port = 3000;
 
 app.get('/',(req,res) => {
     res.send('<h1>Express Demo App </h1>'+ 
-        '<h4>Message : Success </h4> '
+        '<h4>Message : Success version 2 of this App</h4> '
         + '<p> Version 1.0 </p>');
 }).get('/products',(req,res) => {
     res.json([ 
-        {  productId : '101',  price : 150  },
+        {  productId : '101',  price : 151  },
         {  productId : '102',  price : 134 }
     ]);
 }).listen(port,()=> {
