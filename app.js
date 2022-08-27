@@ -8,7 +8,7 @@ app.get('/',(req,res) => {
         + '<p> Version 1.0 </p>');
 }).get('/products',(req,res) => {
     res.json([ 
-        {  productId : '101',  price : 151  },
+        {  productId : '105',  price : 155  },
         {  productId : '102',  price : 134 }
     ]);
 }).listen(port,()=> {
